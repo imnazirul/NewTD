@@ -39,7 +39,8 @@ body{
     height: 30px;
     border:none;
     border-radius: 20px;
-    outline: none;
+    outline: none;
+    padding: 10px 0 10px 10px;
     background-color: transparent;
 }
 form{
