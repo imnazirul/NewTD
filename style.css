@@ -39,8 +39,7 @@ body{
     height: 30px;
     border:none;
     border-radius: 20px;
-    outline: none;
-    padding: 10px 0 10px 10px;
+    outline: none;
     background-color: transparent;
 }
 form{
@@ -63,7 +62,7 @@ form{
     border: none;
     background-color: rgb(150, 212, 7);
     color: white;
-    padding: 5px;
+    padding: 0px 5px 0px 5px;
 }
 
 .addTask input[type="submit"]:hover{
