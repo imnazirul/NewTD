@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg, #153677, #4e085f) ;
+}
+
+.header h1{
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.addTask{
+    width:90%;
+    max-height:10000px;
+    background-color: white;
+    margin:10px auto 20px;
+    border-radius: 20px;
+    padding: 20px 50px 20px;
+}
+.taskbox{
+    background-color: aliceblue;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.addTask input[type="text"] {
+    width: 70%;
+    height: 30px;
+    border:none;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    background-color: transparent;
+}
+form{
+    background-color: aliceblue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.addTask input[type="submit"] {
+    width: 20%;
+    height: 50px;
+    border-radius: 30px;
+    float: right;
+    border: none;
+    background-color: rgb(150, 212, 7);
+    color: white;
+    float: right;
+}
+
+.addTask input[type="submit"]:hover{
+    background-color: rgb(128, 180, 6);
+    cursor: pointer;
+}
+
+ul{
+    margin-top: 20px;
+    background-color:skyblue;
+    max-height: 100vh;
+    overflow: auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 5px;
+    border-bottom: 1px dotted rgba(128, 128, 128, 0.411);
+}
+
+ul li span i{
+    font-size: 25px;
+    color:white;
+    height: 30px;
+    width: 30px;
+    float: right;
+}
+ul li span i:hover{
+    color:black;
+    cursor: pointer;
+}
+ul li input[type="checkbox"] {
+    width: 20px ;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+    
+}
+
+ul li input[type="checkbox"]:checked {
+    background-color: orange;
+
+}
+
+
+
+.lh{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.527);
+}
