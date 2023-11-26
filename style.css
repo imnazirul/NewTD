@@ -6,8 +6,7 @@
 }
 
 body{
-    background:linear-gradient(135deg, #153677, #4e085f) no-repeat;
-    height:100vh;
+    background:linear-gradient(135deg, #153677, #4e085f);
 }
 
 .header h1{
