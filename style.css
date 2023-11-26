@@ -16,7 +16,7 @@ body{
 }
 
 .addTask{
-    width:90%;
+    width:95%;
     max-height:10000px;
     background-color: white;
     margin:10px auto 20px;
@@ -25,7 +25,7 @@ body{
 }
 .taskbox{
     background-color: aliceblue;
-    width: 90%;
+    width: 97%;
     height: 50px;
     display: flex;
     align-items: center;
@@ -81,9 +81,10 @@ ul{
 }
 
 ul li{
+    width:80%;
     list-style: none;
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 18px;
     padding: 5px;
     border-bottom: 1px dotted rgba(128, 128, 128, 0.411);
 }
