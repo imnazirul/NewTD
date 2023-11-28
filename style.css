@@ -16,6 +16,7 @@ body{
 }
 
 .addTask{
+    margin-top: 30px;
     width:95%;
     max-height:10000px;
     background-color: white;
