@@ -72,6 +72,7 @@ form{
 }
 
 ul{
+    width: 100%;
     margin-top: 20px;
     background-color:skyblue;
     max-height: 100vh;
@@ -81,7 +82,7 @@ ul{
 }
 
 ul li{
-    width:95%;
+    width:97%;
     list-style: none;
     margin-bottom: 15px;
     font-size: 18px;
