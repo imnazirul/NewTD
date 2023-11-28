@@ -39,14 +39,10 @@ function addTask() {
 UL.addEventListener('click', function(event) {
 
     if(event.target.tagName === "INPUT") {
-        if(event.target.nextElementSibling.classList.contains('lh')){
-        event.target.nextElementSibling.classList.remove('lh')
-        event.target.checked = false;
-        }else{
-            event.target.nextElementSibling.classList.add('lh')
-            event.target.checked = true;
-        }
-
+        
+        event.target.nextElementSibling.classList.toggle('lh');
+        event.target.remove()
+        
     }else if(event.target.tagName === "I") {
         let span = event.target.parentNode
         let li = span.parentNode
